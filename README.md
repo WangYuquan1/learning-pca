@@ -38,7 +38,7 @@
 |Balance Inquiry | Avaiable 99.95% | Fraction of 200 vs 500 HTTP responses from API endpoint measured per day |
 |Balance Inquiry | 95% of requests will complete in under 300ms | Time to last byte GET requests measured every 10 seconds aggregated per minute |
 
-***
+
 4a. Design Microservices for Your Application  
 5. Designing REST APIs  
 6. Defining Storage Characteristics  
