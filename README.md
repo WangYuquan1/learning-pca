@@ -3,8 +3,8 @@
 ## Cloud Infrastructure learning path
 1. Google Cloud Platform Fundamentals:Core Infrastructure
 2. Architecting with Google Compute Engine or Google Kubernetes Engine
-3. [Reliable Cloud Infrastructure: Design and Process](#reliable-cloud-infrastructuredesign-and-process)
-## [Workbook](#workbook-1)
+3. [Reliable Cloud Infrastructure: Design and Process](#reliable-cloud-infrastructuredesign-and-process)  
+- [Workbook](#workbook)
 ## Reliable Cloud Infrastructure:Design and Process
 ### Agenda
 1. Defining Services
@@ -22,7 +22,7 @@
 2. KPI、SLI
 3. SLO、SLA
 
-### Workbook
+## Workbook
 #### 1a. Defining Your Case Study  
 - payment system(Dorayaki)   
    
