@@ -27,9 +27,15 @@
 - payment system(Dorayaki)   
    
 #### 1b. Case Study Name Here  
-##### Brief description
-##### List a few main features
-##### List roles of typical users
+1. Brief description  
+   1. ユーザー企業のお客様はアプリ・POS・チャージ機・SSCあらゆる端末経由で該当システムをアクセスし、決済を行える。
+   2. ユーザー企業関連部署はお客様対応や、システム利用状況チェックできる。
+2. List a few main features
+3. List roles of typical users  
+   1. API呼び出すクライアント（例：アプリ、SSC、POS、チャージ機、CRM）
+   2. お客様対応（例：コンタクトセンター）
+   3. 集計者（例：経理）
+   4. 管理者（例：TFS）
 #### 2a. Writing User Personas   
 1. B2B　TRIAL 
    1. お客様はアプリ、チャージ機、POS、SSCを利用して、決済の動作を安全、かつスムーズにできるシステム。
