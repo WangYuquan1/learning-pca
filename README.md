@@ -36,8 +36,9 @@
    2. 関連部署（コンタクトセンター）はお客様のクレーム・問い合わせ対応できること
    3. 関連部署（TFS、経理）は定期的に利用状況を集計できること
 2. B2B  導入したい他企業
-3. end user? (各クライアント範囲？)
-##### ※　ユーザーペルソナは、ユーザー（英語版）の仮説グループの目的と行動を表現したものである。ほとんどの場合、ペルソナは、ユーザーに対するインタビューから収集したデータから生成される[2]。ペルソナは、行動パターン、目的、スキル、態度などを含む1～2ページの説明文で表現され、ペルソナを現実的なキャラクターにするために、架空の個人的な詳細が含まれている。(https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A_(%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A8%E3%83%B3%E3%82%B9))
+3. end user? (各クライアント範囲？)    
+
+※　ユーザーペルソナは、ユーザー（英語版）の仮説グループの目的と行動を表現したものである。ほとんどの場合、ペルソナは、ユーザーに対するインタビューから収集したデータから生成される[2]。ペルソナは、行動パターン、目的、スキル、態度などを含む1～2ページの説明文で表現され、ペルソナを現実的なキャラクターにするために、架空の個人的な詳細が含まれている。(https://ja.wikipedia.org/wiki/%E3%83%9A%E3%83%AB%E3%82%BD%E3%83%8A_(%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%82%A8%E3%82%AF%E3%82%B9%E3%83%9A%E3%83%AA%E3%82%A8%E3%83%B3%E3%82%B9))
 #### 2b. Writing User Stories  
 #### 3. Defining SLIs and SLOs
    
@@ -46,7 +47,8 @@
 |Balance Inquiry | Avaiable 99.95% | Fraction of 200 vs 500 HTTP responses from API endpoint measured per day |
 |Balance Inquiry | 95% of requests will complete in under 300ms | Time to last byte GET requests measured every 10 seconds aggregated per minute |
 
-※比較仕様　稼働率 99.95％  
+※ Doyarakiサービスのみ(VD、４Uサービス含まない）  
+※ 比較仕様　稼働率 99.95％  
 ・年間で 4.38 時間停止することに相当  
 ・月間で 21.9 分停止することに相当
 
