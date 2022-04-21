@@ -22,15 +22,26 @@
 2. KPI、SLI
 3. SLO、SLA
 
+### Microservices Design and architecture
+1. Decompose monolithic application into microservices(モノリシックアプリをマイクロサービスを分解する).
+   1. Microservices
+      1. Microservicesを利用する理由 チームごとに独立して作業し、独自タイミングで本番環境に提供可能になること（組織のスケーリングでき、チームを追加すればスピード向上できる）
+      2. Microservicesを利用する理由　要件に基づき個別に拡張可能ということ
+2. Recognize appropriate microservice boundaries（明確な境界を設け）.
+3. Aichitect stateful and stateless services to optimize scalability and reliability.
+4. Implement services using 12-factor best practices.
+5. Build loosely coupled services by implementing a well-designed REST architecture（適切なRESTアーキテクチャを実装することで、疎結合サービスを構築する）.
+6. Design consistent,standard RESTfull service APIs（一貫性かつ標準RESTfullサービスAPIsを設計する.
 ## Workbook
 #### 1a. Defining Your Case Study  
 - payment system(Dorayaki)   
    
 #### 1b. Case Study Name Here  
 1. Brief description  
+   TFSはTRIALのフィナンシャル支社として、これまで他社の決済システムを利用して、TRIALと加盟店の決済サービスを支えてきました。グループ会社のDX戦略に伴い、コアのパーツとして、今後の拡張性など考えた上、決済システムが自社開発にします。
+2. List a few main features
    1. ユーザー企業のお客様はアプリ・POS・チャージ機・SSCあらゆる端末経由で該当システムをアクセスし、決済を行える。
    2. ユーザー企業関連部署はお客様対応や、システム利用状況チェックできる。
-2. List a few main features
 3. List roles of typical users  
    1. API呼び出すクライアント（例：アプリ、SSC、POS、チャージ機、CRM）
    2. お客様対応（例：コンタクトセンター）
