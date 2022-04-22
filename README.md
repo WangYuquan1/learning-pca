@@ -52,4 +52,26 @@
 ※参照：https://qiita.com/supreme0110/items/17c58c660137e23ef713
 
 5. Build loosely coupled services by implementing a well-designed REST architecture（適切なRESTアーキテクチャを実装することで、疎結合サービスを構築する）.
+   1. マイクロサービスベースのアプリケーションの最重要なPOINTは、対外に完全に独立したマイクロサービスをデプロイできる
+   2. REST
+   3. HTTP
+      1. リクエストライン（Get,Post,PutなどのHTTP動詞、URI、プロトコルバージョン）
+      2. ヘッダー変数
+      3. リクエスト本文
+   4. HTTP動詞
+      1. GET　retrieve data
+      2. POST create data
+      3. PUT create or alter data
+      4. DELETE remove data
+   5. HTTP responses code:3-digit http status code
+      1. 200 codes for success
+      2. 400 codes for client errors
+      3. 500 codes for server errors
 6. Design consistent,standard RESTfull service APIs（一貫性かつ標準RESTfullサービスAPIsを設計する.
+   1. 命名
+   2. エラー処理
+   3. ドキュメント
+   4. バージョン管理
+   5. 互換性
+   6. OpenAPI
+   7. gRPC
