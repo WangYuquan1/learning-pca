@@ -28,7 +28,28 @@
       1. Microservicesを利用する理由 チームごとに独立して作業し、独自タイミングで本番環境に提供可能になること（組織のスケーリングでき、チームを追加すればスピード向上できる）
       2. Microservicesを利用する理由　要件に基づき個別に拡張可能ということ
 2. Recognize appropriate microservice boundaries（明確な境界を設け）.
-3. Aichitect stateful and stateless services to optimize scalability and reliability.
-4. Implement services using 12-factor best practices.
+3. Aichitect stateful and stateless services to optimize scalability and reliability.（状態管理、信頼性、スケーラビリティ）
+4. Implement services using 12-factor best practices.（12要素のベストプラクティス）
+   1. The Twelve-Factor App　merit
+      1. maximize portability　最大移植性
+      2. Deploy to the cloud　
+      3. Enable continuous deployment
+      4. scale easily
+   2. The Twelve-Factor App
+      1. Codebase(バージョン管理されている1つのコードベースと複数のデプロイ) ※バージョン管理（Git)、アプリごとコードリポジトリがありとその逆も同じ
+      2. Dependencies(依存関係を明示的に宣言し分離する)
+      3. Config(設定を環境変数に格納する)　※　secrets,connection strings,endpoints etc..をコードに書かないこと。エンバイロメントヴァリアブルに保存すること。
+      4. Backing service(バックエンドサービスをアタッチされたリソースとして扱う)※DBや外部サービスはアタッチ/デタッチ可能なリソースとして捉え、コードを修正しなくても変更できるように環境変数に設定値(URLやユーザ情報等)を定義しましょう。
+      5. Build,release,run（ビルド、リリース、実行の3つのステージを厳密に分離する.ビルドとリリースとRUNと、各ステージで一意に識別可能なアーティファクトが生成される）
+      6. Processes（アプリケーションを1つもしくは複数のステートレスなプロセスとして実行する）※状態管理必要な場合、独自のデータストアとキャッシュで状態管理
+      7. Port binding(サービスはポート番号を使って公開する。アプリはその一部としてウエブサーバをバンドルし、Apacheのような個別サーバは不要)
+      8. Concurrency(並行性。プロセスモデルによってスケールアウトする)
+      9.  Disposability(廃棄容易性。高速な起動とグレースフルシャットダウンで堅牢性を最大化する）※プロセスの起動と停止が高速に行えるような構成にしましょう。プロセスの起動が高速であればあるほど、スケールが容易になるためです。また停止前にはリクエストの受付停止、処理中リクエストの完了待機、各リソースの廃棄を行う(グレースフル)ようにしましょう。
+      10. Dev/prod parity(開発、ステージング、本番環境をできるだけ一致させた状態を保つ)
+      11. Logs(ログをイベントストリームとして扱う)※ファイル出力ではなく標準出力に出力させ、ツールで1箇所に集約するようにしましょう。
+      12. Admin processes(管理タスクを1回限りのプロセスとして実行する)※管理プロセスはアプリケーションの初期化処理として実行させるようにしましょう。なぜなら手動で管理を実行するとオペミスが発生する可能性があるためです。できる限り自動化しましょう)
+
+※参照：https://qiita.com/supreme0110/items/17c58c660137e23ef713
+
 5. Build loosely coupled services by implementing a well-designed REST architecture（適切なRESTアーキテクチャを実装することで、疎結合サービスを構築する）.
 6. Design consistent,standard RESTfull service APIs（一貫性かつ標準RESTfullサービスAPIsを設計する.
