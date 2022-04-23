@@ -9,7 +9,7 @@
 ### Agenda
 1. Defining Services
 2. Microservice Design and Architecture
-3. DevOps Automation
+3. [DevOps Automation](#devops-automation)
 4. Choosing Storage Solutions
 5. Google Cloud and Hybrid Network Architecture
 6. Deploying Application to Google Cloud 
@@ -75,3 +75,10 @@
    5. 互換性
    6. OpenAPI
    7. gRPC
+
+### DevOps Automation
+1. Automate service deployment using CI/CD pipelines.
+2. Leverage Cloud Source Repositories for source and version control.
+3. Automate builds with Cloud Build and build triggers.
+4. Manage container images with Container Registry.
+5. Investigate infrastructure with code using Cloud Deployment Manager and Terraform.
