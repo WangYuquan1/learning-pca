@@ -12,7 +12,7 @@
 3. [DevOps Automation](#devops-automation)
 4. Choosing Storage Solutions
 5. Google Cloud and Hybrid Network Architecture
-6. Deploying Application to Google Cloud 
+6. [Deploying Application to Google Cloud](#google-cloud-and-hybrid-network-architecture) 
 7. Designing Reliable Systems
 8. Security
 9. Maintenance and Monitoring
@@ -82,3 +82,10 @@
 3. Automate builds with Cloud Build and build triggers.
 4. Manage container images with Container Registry.
 5. Investigate infrastructure with code using Cloud Deployment Manager and Terraform.
+
+### Google Cloud and Hybrid Network Architecture
+Learning objectives
+1. Design VPC networks to optimize for cost,security,and performance.(VPCネットワークを設計してコスト、セキュリティ、パフォーマンスを最適化した)
+2. Configure global and regional load balancers to provide access to services.(サービスへのアクセスを提供するためのグローバルとリージョンのロードバランサを構成します)
+3. Leverage Cloud CDN to provide lower latency and decrease network egress.（構成でCloud　CDNを有効化することでレイテンシーや外向きトラフィックが減るためネットワークコストが削減されます）
+4. Evaluate network architecture using the Network Intelligence Center.（Network Intelligence Centerによるアーキテクチャの評価や、ヒアリング、VPN、Cloud Interconnectなどのネットワーク接続オプション紹介します）
