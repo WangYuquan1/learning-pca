@@ -89,3 +89,9 @@ Learning objectives
 2. Configure global and regional load balancers to provide access to services.(サービスへのアクセスを提供するためのグローバルとリージョンのロードバランサを構成します)
 3. Leverage Cloud CDN to provide lower latency and decrease network egress.（構成でCloud　CDNを有効化することでレイテンシーや外向きトラフィックが減るためネットワークコストが削減されます）
 4. Evaluate network architecture using the Network Intelligence Center.（Network Intelligence Centerによるアーキテクチャの評価や、ヒアリング、VPN、Cloud Interconnectなどのネットワーク接続オプション紹介します）
+   1. VPCピアリング　　2つVPC接続する
+   2. Cloud VPN(99.9%)　VPCとオンプレミスネットワークや別のクラウドネットワークに接続する（IPsec VPNトンネルを介して2つのNWを安全に接続できる。動的な接続はCloud Router必要）
+   3. HA VPN(99.99%)
+   4. Cloud Interconnect 専用の高速接続が必要な場合
+      1. Dedicated Interconnect
+      2. Partner Interconnect
