@@ -87,6 +87,12 @@
 Learning objectives
 1. Design VPC networks to optimize for cost,security,and performance.(VPCネットワークを設計してコスト、セキュリティ、パフォーマンスを最適化した)
 2. Configure global and regional load balancers to provide access to services.(サービスへのアクセスを提供するためのグローバルとリージョンのロードバランサを構成します)
+   1. Global load balance
+      1. HTTP load balancer（グローバル、エニーキャストIPを使用でき、DNSルックアップが簡略化され、送信元に最も近いリージョンにルーティングされる）
+      2. TCP&SSL proxies
+   2. Regional load balancer
+      1. supported by HTTP,TCP,and UDP
+      2. Can have a public or private IP address
 3. Leverage Cloud CDN to provide lower latency and decrease network egress.（構成でCloud　CDNを有効化することでレイテンシーや外向きトラフィックが減るためネットワークコストが削減されます）
 4. Evaluate network architecture using the Network Intelligence Center.（Network Intelligence Centerによるアーキテクチャの評価や、ヒアリング、VPN、Cloud Interconnectなどのネットワーク接続オプション紹介します）
    1. VPCピアリング　　2つVPC接続する
