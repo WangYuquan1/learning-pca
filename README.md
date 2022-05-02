@@ -11,8 +11,8 @@
 2. Microservice Design and Architecture
 3. [DevOps Automation](#devops-automation)
 4. Choosing Storage Solutions
-5. Google Cloud and Hybrid Network Architecture
-6. [Deploying Application to Google Cloud](#google-cloud-and-hybrid-network-architecture) 
+5. [Google Cloud and Hybrid Network Architecture](#google-cloud-and-hybrid-network-architecture)
+6. [Deploying Application to Google Cloud](#deploying-application-to-google-cloud)
 7. Designing Reliable Systems
 8. Security
 9. Maintenance and Monitoring
@@ -101,3 +101,5 @@ Learning objectives
    4. Cloud Interconnect 専用の高速接続が必要な場合
       1. Dedicated Interconnect
       2. Partner Interconnect
+
+### Deploying Application to Google Cloud
