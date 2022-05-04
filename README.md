@@ -4,7 +4,7 @@
 1. Google Cloud Platform Fundamentals:Core Infrastructure
 2. Architecting with Google Compute Engine or Google Kubernetes Engine
 3. [Reliable Cloud Infrastructure: Design and Process](#reliable-cloud-infrastructuredesign-and-process)  
-- [Workbook](#workbook)
+- [Workbook](https://github.com/WangYuquan1/learning-pca-workbook)
 ## Reliable Cloud Infrastructure:Design and Process
 ### Agenda
 1. Defining Services
@@ -13,7 +13,7 @@
 4. Choosing Storage Solutions
 5. [Google Cloud and Hybrid Network Architecture](#google-cloud-and-hybrid-network-architecture)
 6. [Deploying Application to Google Cloud](#deploying-application-to-google-cloud)
-7. Designing Reliable Systems
+7. [Designing Reliable Systems](#designing-reliable-systems)
 8. Security
 9. Maintenance and Monitoring
 
@@ -103,3 +103,11 @@ Learning objectives
       2. Partner Interconnect
 
 ### Deploying Application to Google Cloud
+### Designing Reliable Systems
+Learning objectives  
+1. availability,durability,and scalability(可用性、耐久性、スケーラビリティ)
+2. 単一障害点や相関障害,カスケード障害を回避するフォールトトレラントなシステムの実装方法　※中国語：容错系统
+3. 分散システムの過負荷が問題になる場合の回路ブレーカーや切り捨て型指数バックオフなどを使用した過負荷障害の回避方法
+4. 遅延削除により復元力があるデータストレージを実現する
+5. 通常の動作状態、劣化した動作状態、および障害シナリオの設計
+6. 災害シナリオを分析し、災害復旧の計画、実装、テスト/シミュレーションを行う
