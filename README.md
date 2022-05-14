@@ -113,3 +113,20 @@ Learning objectives
 6. 災害シナリオを分析し、災害復旧の計画、実装、テスト/シミュレーションを行う
 
 ### Security
+1. Security Concepts
+   1. Principle of least privilege（最小権限の原則）
+      1. IAM
+         1. Users & Service accounts
+         2. Roles
+   2. Separation of duties(職掌分散)
+      1. multiple Projects
+      2. Regular audit
+2. Securing People（ユーザーの保護）
+   1. IAM
+   2. Cloud Identity-Aware Proxy(Cloud IAP)　※　App engine、compute engine,GKEで実行されるアプリへのマネージドアクセスを提供する
+   3. Identity Platform(SAML,OpenID,mail,password,tel,SNS,Apple etc..)
+3. Securing Machine Access（マシンアクセスの保護）
+   1. 踏み台インスタンス
+   2. SSH IAP
+4. Network Security
+5. Encryption（エンクリプション、暗号化）
