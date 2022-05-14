@@ -15,7 +15,7 @@
 6. [Deploying Application to Google Cloud](#deploying-application-to-google-cloud)
 7. [Designing Reliable Systems](#designing-reliable-systems)
 8. [Security](#security)
-9. Maintenance and Monitoring
+9. [Maintenance and Monitoring](#maintenance-and-monitoring)
 
 ### Defining Services(サービスの定義)
 1. 要件分析と設計（ユーザーのロールとペルソナ）  
@@ -130,3 +130,15 @@ Learning objectives
    2. SSH IAP
 4. Network Security
 5. Encryption（エンクリプション、暗号化）
+
+### Maintenance and Monitoring
+1. Managing Versions
+   1. Rolling updates(with no downtime)
+   2. blue/green deployment
+   3. Canaria releases
+2. Cost Planning
+   1. Vms
+   2. Disk
+   3. network
+   4. Billing reports(export billing data to BigQuery)
+3. Monitoring Dashboards
