@@ -142,4 +142,3 @@ Learning objectives
    3. network
    4. Billing reports(export billing data to BigQuery)
 3. Monitoring Dashboards
-4. 
