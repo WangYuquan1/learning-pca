@@ -18,10 +18,10 @@ resource "google_compute_subnetwork" "vpc_subnet1" {
   region        = var.region
   secondary_ip_range {
     range_name    = "ip-range-pods-name"
-    ip_cidr_range = "172.10.0.0/24"
+    ip_cidr_range = "172.10.0.0/18"
   }
   secondary_ip_range {
     range_name    = "ip-range-services-name"
-    ip_cidr_range = "172.20.0.0/24"
+    ip_cidr_range = "172.20.0.0/18"
   }
 }
